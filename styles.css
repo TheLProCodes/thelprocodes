@@ -1,0 +1,141 @@
+/* MAIN STYLES */
+
+html {
+	padding: none;
+   	float: none;
+	text-align: left;
+    background-color: transparent;
+}
+body {
+	font-family: Arial;
+	font-size: 15px;
+}
+head {
+	display: none;
+}
+/* SECTION STYLES */
+
+marquee {
+	background-color: lightgray;
+}
+main {
+	background-color: none;
+}
+div.alert {
+	cursor: crosshair;
+	display: block;
+	color: lightblue;
+	text-align: center;
+	background-color: red;
+	padding-top: .5cm;
+	padding-bottom: .5cm;
+	margin-bottom: 1cm;
+	margin-left: 10cm;
+	margin-right: 10cm;
+	margin-top: 1cm;
+}
+div.more {
+	display: normal;
+	cursor: crosshair;
+	background-color: yellow;
+	color: black;
+	margin-left: 75%;
+	padding-left: 1cm;
+	padding-right: 1cm;
+	
+}
+table, tr, td, th {
+	color: black;
+	border: 1px solid black;
+	background-color: lightgrey;
+}
+/* ELEMENT STYLES */
+
+/* Headings */
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+h2 {
+	font-size: 35px;
+	text-align: center;
+}
+h3 {
+	font-size: 30px;
+	text-align: center;
+}
+h4 {
+	font-size: 25px;
+	text-align: center;
+}
+h5 {
+	font-size: 20px;
+	text-align: center;
+}
+h6 {
+	font-size: 15px;
+	text-align: center;
+}
+/* Text Types */
+p {
+	font: 15px Arial;
+	font-weight: normal;
+	text-align: left;
+}
+b {
+	font-weight: bold;
+}
+u {
+	text-decoration: underline;
+}
+i {
+	font-style: italic;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+small.caps {
+  font-variant: small-caps;
+}
+/* ID's and classes */
+header figcaption {
+  text-align: center;
+}
+header img {
+  margin: 0 auto;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+a.active {
+  background: darkblue;
+}
+p.home-welcome {
+  font: 33px Arial;
+  text-align: center;
+}
+section.home_top {
+  width: 100%;
+  border-radius: 50%;
+}
